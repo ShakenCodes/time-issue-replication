@@ -1,0 +1,14 @@
+{
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.check.extraArgs": [
+        "--target",
+        "thumbv7em-none-eabi"
+    ],
+    "rust-analyzer.cargo.noDefaultFeatures": true,
+    "rust-analyzer.imports.preferNoStd": true,
+    "rust-analyzer.showUnlinkedFileNotification": false,
+    "rust-analyzer.server.extraEnv": {
+        "RUSTUP_TOOLCHAIN": "nightly-2023-11-01"
+    }
+}

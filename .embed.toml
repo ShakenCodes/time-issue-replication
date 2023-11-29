@@ -1,0 +1,13 @@
+# see https://github.com/probe-rs/cargo-embed/blob/HEAD/src/config/default.toml
+
+[default.probe]
+usb_vid = "0483"
+usb_pid = "374f"
+protocol = "Swd"
+
+[default.general]
+chip = "STM32WLE5JCIx"
+connect_under_reset = true
+
+[default.rtt]
+enabled = true
